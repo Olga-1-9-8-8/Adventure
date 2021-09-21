@@ -14,7 +14,6 @@ interface Props {
 }
 
 export const Verb: React.FC<Props> = ({ verb, deleteVerb }) => {
-  const currentName = verb.currentVerb;
   const world = verb.currentVerb;
   const newWorld = world.slice(0, world.length - 3);
   const indexRight = verb.currentNameIndex;
@@ -27,15 +26,12 @@ export const Verb: React.FC<Props> = ({ verb, deleteVerb }) => {
   const exceptionSecond = [
     'у(ю)', 'им', 'ишь', 'ите', 'ит', 'ит', 'ит', 'ат(ят)'
   ]
-  const exceptionFirstConjugation = ['брить', 'стелить'];
-  const exceptionSecondConjugation = ['гнать', 'держать', 'смотреть', 'видеть', 'дышать', 'слышать', 'ненавидеть', 'зависеть', 'терпеть', 'обидеть', 'вертеть']
-
 
   const findRightEnd = (end: string, indexRight: number) => {
 
-    if (end === 'ить') {
+    if (end === 'ить' || world === 'гнать' || world === 'держать' || world === 'смотреть' || world === 'видеть' || world === 'дышать' || world === 'ненавидеть' || world === 'обидеть' || world === 'вертеть' || world === 'зависеть' || world === 'терпеть') {
       return exceptionSecond[indexRight]
-    } else {
+    } else if (world === 'брить' || world === 'стелить') {
       return exceptionFirst[indexRight]
     }
   }
