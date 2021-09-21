@@ -1,4 +1,8 @@
 .App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.wrapper-content{
+  height: 100%;
 }

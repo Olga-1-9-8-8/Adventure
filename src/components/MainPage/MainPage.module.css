@@ -1,0 +1,69 @@
+.mainPage{
+    height: 100%;
+    overflow-y:auto;
+}
+
+.form{
+    display: grid;
+    margin: 20px;
+    margin-top: 30px;
+    grid-template-rows: 90px 80px;
+    grid-template-columns: 2fr 6fr;
+    grid-template-areas: 
+    "form__itemSelect form__itemInput"
+    "form__button form__button";
+    min-height: 200px;
+}
+.form__itemSelect{
+    margin-left: 8px;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.form__itemSelectWrapper{
+    grid-area: form__itemSelect;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+}
+
+.form__itemInput{
+    grid-area: form__itemInput;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+}
+.form__itemInput input{
+    margin-top: 56px;
+    margin-left: 8px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+}
+
+.form__button{
+    grid-area: form__button;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.form__button input{
+    border: 2px solid #fff;
+    background-color: steelblue;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.1;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0px;
+    border-radius: 10px;
+    display: block;
+    transition: 0.2s;
+    margin: 10px auto;
+    width: 40%;
+    height: 50px;
+}

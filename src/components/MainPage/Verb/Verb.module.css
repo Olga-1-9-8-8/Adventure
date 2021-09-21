@@ -1,0 +1,21 @@
+.listWrapper{
+    font-size: 1.5rem;
+    padding: 0 20px ;
+    height: 40px;
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: steelblue;
+    color: #fff;
+}
+
+
+.results__icon{
+    color: fff;
+    cursor: pointer;
+}
+
+.results__title{
+    margin-right:500px;
+}
