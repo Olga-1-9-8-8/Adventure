@@ -28,10 +28,9 @@ export const Verb: React.FC<Props> = ({ verb, deleteVerb }) => {
   ]
 
   const findRightEnd = (end: string, indexRight: number) => {
-
     if (end === 'ить' || world === 'гнать' || world === 'держать' || world === 'смотреть' || world === 'видеть' || world === 'дышать' || world === 'ненавидеть' || world === 'обидеть' || world === 'вертеть' || world === 'зависеть' || world === 'терпеть') {
       return exceptionSecond[indexRight]
-    } else if (world === 'брить' || world === 'стелить') {
+    } else {
       return exceptionFirst[indexRight]
     }
   }

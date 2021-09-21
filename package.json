@@ -2,7 +2,7 @@
   "name": "adventure",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Olga-1-9-8-8.github.io/TyberryShop",
+  "homepage": "https://Olga-1-9-8-8.github.io/Adventure",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
