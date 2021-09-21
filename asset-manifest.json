@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TyberryShop/static/css/main.b37657d4.chunk.css",
-    "main.js": "/TyberryShop/static/js/main.48dde62c.chunk.js",
-    "main.js.map": "/TyberryShop/static/js/main.48dde62c.chunk.js.map",
+    "main.js": "/TyberryShop/static/js/main.f9c1f616.chunk.js",
+    "main.js.map": "/TyberryShop/static/js/main.f9c1f616.chunk.js.map",
     "runtime-main.js": "/TyberryShop/static/js/runtime-main.11b2c6ca.js",
     "runtime-main.js.map": "/TyberryShop/static/js/runtime-main.11b2c6ca.js.map",
     "static/js/2.613b959b.chunk.js": "/TyberryShop/static/js/2.613b959b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.11b2c6ca.js",
     "static/js/2.613b959b.chunk.js",
     "static/css/main.b37657d4.chunk.css",
-    "static/js/main.48dde62c.chunk.js"
+    "static/js/main.f9c1f616.chunk.js"
   ]
 }
