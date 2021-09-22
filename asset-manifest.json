@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Adventure/static/css/main.b37657d4.chunk.css",
-    "main.js": "/Adventure/static/js/main.1b85de28.chunk.js",
-    "main.js.map": "/Adventure/static/js/main.1b85de28.chunk.js.map",
+    "main.js": "/Adventure/static/js/main.b0a41597.chunk.js",
+    "main.js.map": "/Adventure/static/js/main.b0a41597.chunk.js.map",
     "runtime-main.js": "/Adventure/static/js/runtime-main.d39efeb0.js",
     "runtime-main.js.map": "/Adventure/static/js/runtime-main.d39efeb0.js.map",
     "static/js/2.613b959b.chunk.js": "/Adventure/static/js/2.613b959b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.d39efeb0.js",
     "static/js/2.613b959b.chunk.js",
     "static/css/main.b37657d4.chunk.css",
-    "static/js/main.1b85de28.chunk.js"
+    "static/js/main.b0a41597.chunk.js"
   ]
 }
