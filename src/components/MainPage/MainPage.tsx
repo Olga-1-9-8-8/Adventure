@@ -51,15 +51,11 @@ export const MainPage: React.FC = () => {
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-
     if (!currentVerb) {
       alert('Пожалуйста введите действие в форму')
       return
     }
-
     addVerb()
-
-    setCurrentName('')
     setCurrentVerb('')
   }
 
